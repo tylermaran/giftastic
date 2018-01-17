@@ -1,0 +1,62 @@
+/* test css for formatting purposes*/
+
+body {
+	background-color: #7FFFD4;
+}
+
+.container {
+	border-style: solid;
+	border-radius: 1px;
+	border-color: black;
+}
+
+#searchColumn {
+	border-style: solid;
+	border-radius: 1px;
+	border-color: red;	
+}
+
+#gifColumn {
+	border-style: solid;
+	border-radius: 1px;
+	border-color: blue;	
+}
+
+.gifButton {
+  background: #344fd9;
+  background-image: -webkit-linear-gradient(top, #344fd9, #2bb895);
+  background-image: -moz-linear-gradient(top, #344fd9, #2bb895);
+  background-image: -ms-linear-gradient(top, #344fd9, #2bb895);
+  background-image: -o-linear-gradient(top, #344fd9, #2bb895);
+  background-image: linear-gradient(to bottom, #344fd9, #2bb895);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px #292629;
+  -moz-box-shadow: 2px 2px 15px #292629;
+  box-shadow: 2px 2px 15px #292629;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin: 3px 3px 3px 3px;
+}
+
+.gifButton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#gifimage {
+	height: 200px;
+	width: auto;
+	border-radius: 10px;
+	margin: 5px 5px 5px 5px;
+
+}

@@ -3,8 +3,41 @@
 <head>
 	<title>GifTastic!</title>
 	<!-- add gif as header picture -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="http://www.favicon.cc/logo3d/405969.png" type="image/png">
+
+
 </head>
 <body>
-Test upload
+
+<!-- Create full page container -->
+<div class="container">
+	
+	<!-- Single row for the page -->
+	<div class="row">
+		<!-- subdivided into two columns: small for the list, and large for the gifs -->
+		<div class="col-md-3" id="searchColumn">
+			<div class="form-group">
+				<label for="text">Enter a search term:</label>
+				<input type="text" class="form-control" id="searchTerm">
+			</div>
+
+			<button type="submit" class="btn btn-default" id="search">Submit</button>
+			<button type="submit" class="btn btn-default" id="clear">Clear All</button>	
+			<br>
+			<div id="searchList"></div>
+		<!-- end of col-md-2 div -->
+		</div>
+
+		<div class="col-md-9" id="gifColumn"></div>
+	<!-- end of row 1 div -->
+	</div>
+<!-- end of container div -->
+</div>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>
